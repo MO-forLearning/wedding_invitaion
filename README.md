@@ -4,19 +4,19 @@
 
 ### 1. Dockerイメージのビルド
 ```bash
-$ docker-compose build
+docker-compose build
 ```
 
 ### 2. Dockerコンテナの起動
 ```bash
-$ docker-compose up -d
+docker-compose up -d
 ```
 
 ### 3. 環境変数ファイルの準備
 ```bash
-$ cp .env.tmp .env
+cp .env.tmp .env
 ```
-実際に使用する際は、MySQLのパスワードやユーザー名などを .env に記入してください。
+コピー後、MySQLのパスワードを `.env` に記入してください。
 
 ### 4. Docker再起動（必要な場合）
 ```bash
